@@ -3,5 +3,5 @@ from PIL import Image
 
 st.title("Display Local Image (No URL Needed)")
 
-image = Image.open("images/hells-kitchen.png")
+image = Image.open("images/hells-kitchen.jpg")
 st.image(image, caption="Local Image from Repository", use_column_width=True)
